@@ -1,5 +1,7 @@
 default: random
 
+##this is an intereingt project
+#memoryallocation
 libmemory.so: memory.c
 	gcc -Werror -shared -O3 -fPIC -o libmemory.so memory.c
 
